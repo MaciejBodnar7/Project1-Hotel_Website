@@ -78,7 +78,16 @@ p {
 .clr {
     clear: both;
 }
+
+.l-heading {
+    font-size: 35px;
+}
   
+/* Padding */
+.py-1 { padding: 10px 0; }
+.py-2 { padding: 20px 0; }
+.py-3 { padding: 30px 0; }
+
 /* NavBar */
 #navbar {
     background-color: #333;
@@ -169,6 +178,54 @@ p {
     margin-bottom: 10px; 
 }
 
+/* About-info */
+#about-info .info-right {
+  float: right;
+  width: 50%;
+  min-height: 100%;
+}
+
+#about-info .info-right img {
+  display: block;
+  margin: auto;
+  width: 70%;
+  border-radius: 10px;
+}
+
+#about-info .info-left {
+    float: left;
+    width: 50%;
+    min-height: 100%;
+}
+
+/* Testimonials */
+#testimonials {
+    height: 600px;
+    background: url('../img/test-bg.jpg') no-repeat center center/cover;
+    padding-top: 100px;
+}
+
+#testimonials .testimonials img {
+    width: 100px;
+    float: left;
+    margin-right: 20px;
+    border-radius: 50%;
+}
+
+#testimonials .testimonials {
+    padding: 20px;
+    margin-bottom: 40px;
+    border-radius: 10px;
+    overflow: auto;
+    opacity: 0.9;
+}
+
+#testimonials h2 {
+    color: white;
+    text-align: center;
+    padding-bottom: 40px;
+}
+
 /* Footer */
 #main-footer {
     text-align: center;
@@ -176,3 +233,4 @@ p {
     color: white;
     padding: 20px;
 }
+
