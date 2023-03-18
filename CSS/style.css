@@ -226,6 +226,33 @@ p {
     padding-bottom: 40px;
 }
 
+/* Contact Form */
+#conatct-form .form-group {
+    margin-bottom: 20px;
+}
+
+#conatct-form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+#conatct-form input, 
+#conatct-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px #ddd solid;
+}
+
+#conatct-form textarea {
+    height: 200px;
+}
+
+#conatct-form input:focus, 
+#conatct-form textarea:focus {
+    outline: none;
+    border-color: #f7c08a;
+}
+
 /* Footer */
 #main-footer {
     text-align: center;
