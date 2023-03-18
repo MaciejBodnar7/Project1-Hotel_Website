@@ -74,6 +74,10 @@ p {
     background: #f7c08a;
     color: #333;
   }
+
+.clr {
+    clear: both;
+}
   
 /* NavBar */
 #navbar {
@@ -152,4 +156,23 @@ p {
     text-align: center;
     padding: 50px 30px;
     overflow: hidden;
+}
+
+/* Features */
+.box {
+    float: left;
+    width: 33.3%;
+    padding: 50px;
+    text-align: center;
+
+}.box i {
+    margin-bottom: 10px; 
+}
+
+/* Footer */
+#main-footer {
+    text-align: center;
+    background: #444;
+    color: white;
+    padding: 20px;
 }
